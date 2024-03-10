@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Volume Booster</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="module" src="script.js" defer></script>
+</head>
+<body>
+	<button class="tab" id="state"></button>
+	<nav>
+		<label for="options" class="tab ripple">Options</label>
+	</nav>
+	<div class="details">
+		<input type="radio" name="nav" id="options" checked>
+		<label title="Change volume">
+			<span class="name">Volume (100%)</span>
+			<input type="range" class="override-pointer-events" id="gain" min="100" max="500" value="100" style="width: -webkit-fill-available">
+		</label>
+		<button class="tab ripple" id="reset-settings" title="Reset all the settings to their default state (THIS CANNOT BE UNDONE)">Reset settings</button>
+		</details>
+	</div>
+</body>
+</html>
